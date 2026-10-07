@@ -1,0 +1,35 @@
+# Build output
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+
+# IDE
+.vscode/
+.idea/
+.settings/
+.cproject
+.project
+*.launch
+*.uvguix*
+*.uvoptx
+*.scvd
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+secrets.h
+config_secret.h
